@@ -1,0 +1,39 @@
+{
+  "name": "VibeOS",
+  "short_name": "VibeOS",
+  "description": "Your AI Identity Layer — Discover your vibe. Find your tribe.",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Check Vibe",
+      "short_name": "Vibe",
+      "url": "/home",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "AI Twin",
+      "short_name": "AI Twin",
+      "url": "/ai-twin",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["social", "lifestyle", "productivity"]
+}
